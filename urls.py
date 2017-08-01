@@ -3,4 +3,5 @@ from server import views
 
 urlpatterns = [
     url(r'^index/$',views.index),
+    url(r'^login/$',viws.login),
 ]
